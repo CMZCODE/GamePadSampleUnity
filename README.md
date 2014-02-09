@@ -1,7 +1,7 @@
 GamePadSampleUnity
 ==================
 
-Unity Gampad sample for Android and PC
+Unity Gamepad sample for Android and PC
 
 ShieldControls                                             dcoombes Feb 2014
 ==============
