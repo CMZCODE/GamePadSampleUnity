@@ -5,7 +5,7 @@ Unity Gamepad sample for Android and PC
 
 ShieldControls                                             dcoombes Feb 2014
 ==============
-This Unity 4.3.4 project supports multiple gamepads on both PC and Android.
+This Unity 4.3.4 project supports multiple Gamepads on both PC and Android.
 It maps the Gamepad data to an internal data structure making cross platform development between PC and Android simpler.
 It supports upto 4 connected Gamepads.
 
@@ -14,8 +14,8 @@ Supports
 ========
 
 PC Gamepads Supported
-*Logitech F710:: "Controller (Wireless Gamepad F710)"
 *XBOX 360 Controller:: "XBOX 360 For Windows"
+*Logitech F710:: "Controller (Wireless Gamepad F710)"
 *Afterglow XBOX 360 Controller:: "Afterglow Gamepad for Xbox 360"
 
 Android Gamepads Supported
@@ -24,12 +24,12 @@ Android Gamepads Supported
 
 Notes on Nyko PLAYPAD PRO
 =========================
-*Assuming the PLAYPAD has the latest firmware on it.  Older versions have incorrect FW and can only be updated on a narrow range of devices.
+*Assumes the PLAYPAD has the latest firmware on it.  Older versions have incorrect FW and can only be updated on a narrow range of devices.
 *Avoid PlayPad Pro with BN 122209 5175
 *Bn:1310015238 works fine!
 
 
-Unilicense
+License
 ===========
 This is free and unencumbered software released into the public domain.
 
