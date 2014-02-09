@@ -14,12 +14,18 @@ Supports
 ========
 
 PC Gamepads Supported
+----------------------
 *XBOX 360 Controller:: "XBOX 360 For Windows"
+
 *Logitech F710:: "Controller (Wireless Gamepad F710)"
+
 *Afterglow XBOX 360 Controller:: "Afterglow Gamepad for Xbox 360"
 
+
 Android Gamepads Supported
+--------------------------
 *NVDIA SHIELD:: "NVIDIA Corporation NVIDIA Controller v01"
+
 *Nyko PLAYPAD PRO:: "Broadcom Bluetooth HID" *
 
 Notes on Nyko PLAYPAD PRO
