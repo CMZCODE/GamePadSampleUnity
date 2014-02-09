@@ -13,7 +13,7 @@ It supports upto 4 connected Gamepads.
 
 
 Supports
-========
+------
 
 PC Gamepads Supported
 ----------------------
@@ -31,14 +31,14 @@ Android Gamepads Supported
 *Nyko PLAYPAD PRO:: "Broadcom Bluetooth HID" *
 
 Notes on Nyko PLAYPAD PRO
-=========================
+------------------
 *Assumes the PLAYPAD has the latest firmware on it.  Older versions have incorrect FW and can only be updated on a narrow range of devices.
 *Avoid PlayPad Pro with BN 122209 5175
 *Bn:1310015238 works fine!
 
 
 License
-===========
+------
 This is free and unencumbered software released into the public domain.
 
 Anyone is free to copy, modify, publish, use, compile, sell, or
