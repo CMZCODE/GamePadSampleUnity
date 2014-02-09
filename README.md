@@ -1,10 +1,12 @@
 GamePadSampleUnity
 ==================
 
-Unity Gamepad sample for Android and PC
+Unity Gamepad sample for Android and PC          
 
-ShieldControls                                             dcoombes Feb 2014
-==============
+DCoombes Feb 2014
+
+ShieldControls                          
+--------------
 This Unity 4.3.4 project supports multiple Gamepads on both PC and Android.
 It maps the Gamepad data to an internal data structure making cross platform development between PC and Android simpler.
 It supports upto 4 connected Gamepads.
