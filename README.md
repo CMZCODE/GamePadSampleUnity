@@ -32,9 +32,7 @@ Android Gamepads Supported
 
 Notes on Nyko PLAYPAD PRO
 ------------------
-*Assumes the PLAYPAD has the latest firmware on it.  Older versions have incorrect FW and can only be updated on a narrow range of devices.
-*Avoid PlayPad Pro with BN 122209 5175
-*Bn:1310015238 works fine!
+*Fixed to use channels 12 and 13 for l2/r2 for wider device support.
 
 
 License
