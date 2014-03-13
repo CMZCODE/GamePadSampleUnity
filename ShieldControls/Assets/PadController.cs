@@ -86,7 +86,7 @@ public ControllerPacket Copy()
 public class PadController : MonoBehaviour {
 
 	static int mMAXCONTROLLERS = 4;
-	static string mVersion = "0.01";
+	static string mVersion = "0.03";
 
 	int mActivePadCount;  //the number of currently active game pads detected
 	ControllerPacket[] mPadData;
@@ -173,7 +173,7 @@ public class PadController : MonoBehaviour {
 
 			if(mPadName[i].Contains(mPADS[3]))	 readXBOX360(i);  	//afterglow xbox 360
 
-			if(mPadName[i].Contains(mPADS[4]))	 readSHIELDPAD(i); //nyco maps to same controls as shield  
+			if(mPadName[i].Contains(mPADS[4]))	 readSHIELDPAD(i); //nyko maps to same controls as shield  
 
 			filterAnalogs(i); //filter small return values 
 
@@ -301,8 +301,8 @@ public class PadController : MonoBehaviour {
 		mPadData[id].up 	= (dPadY<0)? true: false;
 		mPadData[id].down 	= (dPadY>0)? true: false;
 		
-		mPadData[id].leftTrigger=Input.GetAxis(idString+"_7th axis");
-		mPadData[id].rightTrigger=Input.GetAxis(idString+"_8th axis");
+		mPadData[id].leftTrigger=Input.GetAxis(idString+"_13th axis");
+		mPadData[id].rightTrigger=Input.GetAxis(idString+"_12th axis");
 
 		mPadData[id].pause = Input.GetButton("joystick "+idString+" button 10")? true: false; 
 
@@ -388,6 +388,9 @@ public class PadController : MonoBehaviour {
 		txtLine1 += " 8th axis:" +Input.GetAxis(idString+"_8th axis");
 		txtLine1 += " 9th axis:" +Input.GetAxis(idString+"_9th axis");
 		txtLine1 += "10th axis:" +Input.GetAxis(idString+"_10th axis");
+		txtLine1 += "11th axis:" +Input.GetAxis(idString+"_11th axis");
+		txtLine1 += "12th axis:" +Input.GetAxis(idString+"_12th axis");
+		txtLine1 += "13th axis:" +Input.GetAxis(idString+"_13th axis");
 		txtLine1 += "\n\n";
 
 		return txtLine1;
@@ -414,7 +417,10 @@ public class PadController : MonoBehaviour {
 		{
 			txtLine1+= i.ToString()+" "+mPadName[i]+"\n";
 			if(KnownPad(i)) // we know this type of pad so display the formatted data
+			{
 				txtLine1+= DebugPadData(i);
+				txtLine1+= DebugPadUnknown(i);
+			}
 			else
 			{
 				txtLine1+= "+++DONT HAVE A HANDLER FOR THIS GAMEPAD+++\n";

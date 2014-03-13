@@ -19,11 +19,8 @@ Android Gamepads Supported
 
 Notes on Nyko PLAYPAD PRO
 =========================
-*Assuming the PLAYPAD has the latest firmware on it.
-Older versions have incorrect FW and can only be updated on a narrow range of devices.
-*Avoid PlayPad Pro with BN 122209 5175
-*Bn:1310015238 works fine!
-
+Some Nyki PLAYPAD PRO's return data for analog triggers (l2/r2) in 2 different sets of channels.
+THe correct channels to use are 12 and 13.
 
 
 Unilicense
