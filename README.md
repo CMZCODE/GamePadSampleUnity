@@ -11,6 +11,8 @@ This Unity 4.3.4 project supports multiple Gamepads on both PC and Android.
 It maps the Gamepad data to an internal data structure making cross platform development between PC and Android simpler.
 It supports upto 4 connected Gamepads.
 
+This code is quite basic and there are much better solutions available like InControl from Gallant Games which supports a much wider range of controllers.
+http://www.gallantgames.com/pages/incontrol-introduction
 
 Supports
 ------
