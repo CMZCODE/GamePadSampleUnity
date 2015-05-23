@@ -4,6 +4,7 @@ GamePadSampleUnity
 Unity Gamepad sample for Android and PC          
 
 DCoombes Feb 2014
+DCoombes May 2015 (Just tested this with SHIELD Android TV and Unity 5.  Works fine.)
 
 ShieldControls                          
 --------------
