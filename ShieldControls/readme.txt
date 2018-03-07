@@ -19,8 +19,8 @@ Android Gamepads Supported
 
 Notes on Nyko PLAYPAD PRO
 =========================
-Some Nyki PLAYPAD PRO's return data for analog triggers (l2/r2) in 2 different sets of channels.
-THe correct channels to use are 12 and 13.
+Some Nyko PLAYPAD PRO's return data for analog triggers (l2/r2) in 2 different sets of channels.
+The correct channels to use are 12 and 13.
 
 
 Unilicense
